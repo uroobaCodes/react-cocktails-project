@@ -1,0 +1,58 @@
+.go-home-btn {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(207, 200, 200);
+  padding: 10px;
+  border-radius: 10px;
+  transition: all 0.3s linear;
+  font-weight: 700;
+}
+
+.go-home-btn:hover {
+  color: rgb(205, 204, 204);
+  background-color: rgb(19, 19, 19);
+}
+
+.cocktail-section {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.title {
+  margin-top: 60px;
+  text-decoration: underline;
+  letter-spacing: 5px;
+  font-size: 2.5rem;
+}
+
+.drink-parent {
+  width: 84vw;
+  max-width: 1170px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.drink-parent img {
+  border-radius: 10px;
+  height: 150px;
+  width: 150px;
+}
+.drink-parent p {
+  font-weight: bold;
+  text-transform: capitalize;
+  line-height: 1.8;
+}
+
+.drink-parent span {
+  margin-right: 0.5rem;
+}
+
+.drink-data {
+  background: black;
+  padding: 0.25rem 0.5rem;
+  border-radius: 10px;
+  color: white;
+}
+.drink-info {
+  padding-top: 2rem;
+}

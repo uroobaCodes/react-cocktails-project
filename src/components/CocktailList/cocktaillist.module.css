@@ -1,0 +1,29 @@
+.section {
+  padding: 5rem 0;
+}
+.section-title {
+  font-size: 2rem;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 3.5rem;
+  margin-top: 1rem;
+}
+.cocktails-center {
+  width: 85vw;
+  margin: 0 auto;
+  max-width: 40rem;
+  display: grid;
+  row-gap: 2rem;
+  column-gap: 2rem;
+  justify-items: center;
+  align-items: center;
+  /* align-items: start; */
+}
+
+@media screen and (min-width: 576px) {
+  .cocktails-center {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 100px;
+  }
+}

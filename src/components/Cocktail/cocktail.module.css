@@ -1,0 +1,48 @@
+.cocktail {
+  background: white;
+  margin-bottom: 2rem;
+  box-shadow: 0px 10px 5px rgb(107, 105, 105);
+  transition: all 0.3s linear;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  border-radius: 0.25rem;
+}
+
+.cocktail img {
+  height: 15rem;
+  object-fit: cover;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+.cocktail:hover {
+  box-shadow: 0px 15px 20px rgb(59, 58, 58);
+}
+.cocktail-footer {
+  padding: 1.5rem;
+}
+.cocktail-footer h3,
+.cocktail-footer h4,
+.cocktail-footer p {
+  margin-bottom: 0.3rem;
+}
+.cocktail-footer h3 {
+  font-size: 2rem;
+}
+.cocktail-footer p {
+  color: rgb(88, 86, 86);
+  margin-bottom: 0.5rem;
+}
+.details-btn {
+  padding: 5px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  transition: all 0.2s linear;
+}
+
+.details-btn:hover {
+  background-color: rgb(68, 66, 66);
+  color: white;
+}
